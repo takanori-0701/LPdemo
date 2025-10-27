@@ -1,0 +1,10 @@
+@use "global" as *;
+
+.main-contents {
+  max-width: rem(504);
+  margin: 0 auto;
+  @include mq('md') {
+    overflow-y: auto;
+    /* 中央だけスクロール可 */
+  }
+}
