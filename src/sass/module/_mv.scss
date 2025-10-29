@@ -1,0 +1,145 @@
+@use "global" as *;
+
+.mv {
+  position: relative;
+
+}
+
+
+
+.mv::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url("../images/mv/main01_back01.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  top: -18%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.mv-layout {
+  position: relative;
+
+}
+
+
+.mv__head {
+  position: relative;
+}
+
+.mv__subtitle {
+  position: absolute;
+  left: rem(19);
+  top: rem(17);
+}
+
+.mv__subtitle img {
+  width: rem(343);
+
+}
+
+.mv__title {
+  position: absolute;
+  left: rem(14);
+  top: rem(37);
+}
+
+.mv__title img {
+  width: rem(463);
+}
+
+.mv__view {
+  padding-top: rem(196);
+}
+
+.mv__inner.inner {
+  padding-inline: rem(15);
+}
+
+.mv__inner {
+  position: relative;
+}
+
+.mv__inner::after {
+  content: "";
+  position: absolute;
+  bottom: -36%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/mv/main01_back02.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.mv__textbox {
+  text-align: center;
+  position: relative;
+}
+
+.mv__textbox::before,
+.mv__textbox::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
+}
+
+.mv__textbox::before {
+  background-image: url("../images/mv/main01_right01.webp");
+  top: rem(-23);
+  left: rem(-8);
+  aspect-ratio: 165/246;
+  width: rem(176);
+}
+
+.mv__textbox::after {
+  background-image: url("../images/mv/main01_right02.webp");
+  top: rem(45);
+  right: rem(-3);
+  aspect-ratio: 124/186;
+  width: rem(124);
+}
+
+
+
+
+.mv__textbox p {
+  line-height: calc(28 / 16);
+}
+
+.mv__textbox p span {
+  font-weight: 900;
+  position: relative;
+}
+
+.mv__textbox p span::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  bottom: rem(1);
+  left: 0;
+  width: 100%;
+  height: rem(10);
+  background-color: #FF94C6;
+  z-index: -1;
+}
+.mv__info {
+  margin-top: rem(18);
+}
+
+.mv__button {
+  margin-top: rem(38);
+}

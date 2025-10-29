@@ -1,0 +1,27 @@
+@use "global" as *;
+
+/* ページ全体のスクロール制御 */
+@media screen and (min-width: 768px) {
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+
+.layout-container {
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  //background-color: $pink2;
+
+  @include mq('md') {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 504px) 1fr;
+    width: 100vw;
+    height: 100vh;
+  }
+
+}

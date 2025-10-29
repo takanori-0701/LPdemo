@@ -1,0 +1,14 @@
+@use "global" as *;
+
+.sidebar {
+  display: none;
+
+  @include mq('md') {
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: $pink2;
+  }
+}

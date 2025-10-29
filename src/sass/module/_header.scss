@@ -1,0 +1,17 @@
+@use "global" as *;
+
+
+.header__textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #e92283, #fb913d);
+}
+
+.header__text {
+  font-size: rem(13);
+  font-weight: bold;
+  color: $white;
+  padding-block: rem(6.5);
+
+}

@@ -1,0 +1,39 @@
+@use "global" as *;
+
+
+.sidebar-right {
+  @include mq('md') {
+    right: 0;
+  }
+
+}
+
+.sidebar-right__container {
+  @include mq('md') {
+    position: relative;
+    height: 100vh;
+
+  }
+}
+
+.sidebar-right__image01 {
+  @include mq('md') {
+    // aspect-ratio: 328.98/493.98;
+    max-width: rem(360);
+    position: absolute;
+    top: rem(233);
+    left: rem(22);
+
+  }
+}
+
+.sidebar-right__image02 {
+  @include mq('md') {
+    // aspect-ratio: 249/374;
+    max-width: rem(249);
+    // width: 53%;
+    position: absolute;
+    top: rem(703);
+    left: rem(181);
+  }
+}
