@@ -1,15 +1,25 @@
 @use "global" as *;
 
+/* ページ全体のスクロール制御 */
+@media screen and (min-width: 768px) {
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
 
 .layout-container {
-  @include mq('md') {
-    // display: flex;
-    // height: 100vh;
-    // max-width: 100%;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  //background-color: $pink2;
 
+  @include mq('md') {
     display: grid;
     grid-template-columns: 1fr minmax(0, 504px) 1fr;
-    /* 中央は最大504px、左右は余りを分担 */
     width: 100vw;
     height: 100vh;
   }

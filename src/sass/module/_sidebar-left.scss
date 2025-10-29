@@ -3,7 +3,7 @@
 .sidebar-left {
 
   @include mq('md') {
-    margin-top: rem(243);
+    padding-top: rem(243);
     left: 0;
   }
 }
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: rem(37.9);
+    gap: rem(45);
   }
 }
 
@@ -46,7 +46,7 @@
 .sidebar-left__text li:not(:first-child) {
 
   @include mq('md') {
-    margin-top: rem(20);
+    margin-top: rem(15);
   }
 
 }

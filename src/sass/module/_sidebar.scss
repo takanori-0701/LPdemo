@@ -4,16 +4,11 @@
   display: none;
 
   @include mq('md') {
-    // display: block;
-    // position: fixed;
-    // top: 0;
-    // height: 100vh;
-    // overflow-y: hidden;
+    display: inline-block;
     position: sticky;
-    /* 画面に張り付ける（スクロールしない） */
     top: 0;
     height: 100vh;
     overflow: hidden;
-
+    background-color: $pink2;
   }
 }
