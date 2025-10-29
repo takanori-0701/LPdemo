@@ -15,7 +15,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  top: -18%;
+  top: -19%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -47,7 +47,7 @@
 .mv__title {
   position: absolute;
   left: rem(14);
-  top: rem(37);
+  top: 0;
 }
 
 .mv__title img {
@@ -55,7 +55,7 @@
 }
 
 .mv__view {
-  padding-top: rem(196);
+  padding-top: rem(190);
 }
 
 .mv__inner.inner {
@@ -69,7 +69,7 @@
 .mv__inner::after {
   content: "";
   position: absolute;
-  bottom: -36%;
+  bottom: -32%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -141,5 +141,5 @@
 }
 
 .mv__button {
-  margin-top: rem(38);
+  margin-top: rem(40);
 }
