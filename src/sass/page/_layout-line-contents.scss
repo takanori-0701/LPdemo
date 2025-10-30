@@ -1,0 +1,13 @@
+@use "global" as *;
+
+.layout-line-contents {
+  background-image: url(../images/line-contents/line-contents_backimage.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  @include mq('md') {
+    padding-top: rem(50);
+
+  }
+}
