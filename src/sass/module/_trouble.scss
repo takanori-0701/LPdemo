@@ -9,10 +9,19 @@
   padding-inline: rem(15);
 }
 
-.trouble__title {}
+.trouble__title {
+  display: flex;
+  justify-content: center;
+}
+
+.trouble__title img {
+  aspect-ratio: 216/68;
+  max-width: rem(216);
+  width: 100%;
+}
 
 .trouble__lists {
-  margin-top: rem(90);
+  margin-top: rem(20);
   display: flex;
   flex-direction: column;
   gap: rem(10);
@@ -22,7 +31,7 @@
 
 .trouble__list {
   font-size: rem(12);
-  padding: rem(12) rem(50);
+  padding: rem(12) rem(42);
   border-radius: 23px;
   background:
     linear-gradient(white, white) padding-box,
@@ -30,7 +39,20 @@
   border: 1px solid transparent;
 }
 
-.trouble__comics {}
+.trouble__comics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: rem(30);
+  margin-top: rem(30);
+
+}
+
+.trouble__comics img {
+  aspect-ratio: 350/350;
+  width: 100%;
+  max-width: rem(350);
+}
 
 .trouble__cta {
   margin-top: rem(80);
