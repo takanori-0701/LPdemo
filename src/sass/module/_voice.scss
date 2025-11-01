@@ -1,0 +1,18 @@
+@use "global" as *;
+
+.voice__title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.voice__swiper {
+  margin-top: rem(20);
+}
+
+
+.voice__title img {
+  aspect-ratio: 120/34;
+  max-width: rem(120);
+
+}

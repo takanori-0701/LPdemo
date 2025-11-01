@@ -1,0 +1,133 @@
+@use "global" as *;
+
+.present {}
+
+.present__inner.inner {
+  padding-inline: rem(15);
+}
+
+.present__head {}
+
+.present__head img {
+  aspect-ratio: 252/68;
+  max-width: rem(252);
+  width: 100%;
+}
+
+.present__contents {
+  margin-top: rem(20);
+}
+
+.present__lists {
+  margin-top: rem(20);
+}
+
+
+.present__list {
+  display: flex;
+  gap: rem(40);
+  padding-top: rem(15);
+  padding-bottom: rem(14);
+  padding-inline: rem(25);
+}
+
+.present__list img {
+  aspect-ratio: 100/100;
+  max-width: rem(100);
+  object-fit: contain;
+}
+
+.present__list-textbox {}
+
+.present__list-head {}
+
+.present__list-head span {
+  background-color: $pink;
+  font-weight: $bold;
+  color: $white;
+  padding: rem(2) rem(4);
+}
+
+.present__list-head p {
+  font-weight: $bold;
+  color: $pink;
+}
+
+.present__list-head span::before {}
+
+.present__list-text {
+  font-size: rem(13);
+  margin-top: rem(12);
+
+}
+
+.present__list-text--bold {
+  font-weight: $bold;
+}
+
+
+.present__add {
+  margin-top: rem(40);
+}
+
+.present__add-head {
+  text-align: center;
+}
+
+.present__add-head span {
+  font-size: rem(20);
+  color: $pink;
+  font-weight: $bold;
+
+}
+
+.present__add-head p {}
+
+.present__add-images {
+  display: flex;
+  gap: rem(16);
+  margin-top: rem(20);
+
+}
+
+.present__add-images img {
+  aspect-ratio: 148/84;
+  max-width: rem(148);
+  object-fit: cover;
+}
+
+
+.present__add-images li {}
+
+.present__add-image {}
+
+.present__add-text {
+  margin-top: rem(20);
+  text-align: center;
+}
+
+.present__add-text span {
+  font-size: rem(20);
+  color: $pink;
+  font-weight: $bold;
+}
+
+.present__add-accent {
+  margin-top: rem(20);
+  text-align: center;
+}
+
+.present__add-accent p {
+  display: inline-block;
+  font-size: rem(18);
+  padding: rem(8) rem(10);
+  font-weight: $bold;
+  color: $white;
+  background:
+    linear-gradient(90deg, #E92283, #FB913D) border-box;
+  border: 1px solid transparent;
+}
+
+.present__add-accent p+p {
+  margin-top: rem(15);
+}

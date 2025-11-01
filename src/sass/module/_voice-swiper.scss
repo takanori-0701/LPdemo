@@ -1,0 +1,25 @@
+@use "global" as *;
+
+// swiper
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.voice__swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 271/320;
+  max-width: rem(271);
+  object-fit: cover;
+}
