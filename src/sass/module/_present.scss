@@ -6,7 +6,11 @@
   padding-inline: rem(15);
 }
 
-.present__head {}
+.present__head {
+  display: flex;
+  justify-content: center;
+}
+
 
 .present__head img {
   aspect-ratio: 252/68;

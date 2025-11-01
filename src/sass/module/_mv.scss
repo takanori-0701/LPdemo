@@ -46,12 +46,15 @@
 
 .mv__title {
   position: absolute;
-  left: rem(14);
+  // left: rem(14);
+  left: 2%;
   top: 0;
 }
 
 .mv__title img {
-  width: rem(463);
+  // max-width: 463px;
+  max-width: rem(463);
+  width: 100%;
 }
 
 .mv__view {
@@ -136,6 +139,7 @@
   background-color: #FF94C6;
   z-index: -1;
 }
+
 .mv__info {
   margin-top: rem(18);
 }

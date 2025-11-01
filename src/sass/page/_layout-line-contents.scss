@@ -1,13 +1,13 @@
 @use "global" as *;
 
 .layout-line-contents {
-  background-image: url(../images/line-contents/line-contents_backimage.png);
+  padding-top: rem(50);
+  padding-bottom: rem(16);
+  background-image: url(../images/line-contents/line-contents_backimage.webp);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
+  background-color: $pink2;
 
-  @include mq('md') {
-    padding-top: rem(50);
-
-  }
+  @include mq('md') {}
 }

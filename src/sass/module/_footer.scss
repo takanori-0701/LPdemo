@@ -1,0 +1,12 @@
+@use "global" as *;
+
+
+.footer {
+  background: linear-gradient(90deg, #E92283, #FB913D) border-box;
+}
+
+.footer__text {
+  padding: rem(10) 0;
+  text-align: center;
+  color: $white;
+}
