@@ -21,11 +21,14 @@
   <link rel="”icon”" href="" />
   <!-- css -->
   <link rel="stylesheet" href="./assets/css/style.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <!-- font -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="./assets/js/script.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </head>
 
 <body>
@@ -128,70 +131,201 @@
       <!-- line-contents -->
       <section class="line-contents layout-line-contents">
         <div class="line-contents__inner inner">
-          <div class="line-contents__head">
-            <img src="./assets/images/line-contents/line-contents_title.svg" alt="">
-          </div>
-
-          <div class="line-contents__lists">
-            <!-- item 1 -->
-            <article class="line-contents__item">
-              <div class="line-contents__thumb">
-                <img src="./assets/images/line-contents/line-contents01.webp" alt="子育てや家事の合間に在宅で20〜30万で働きたい女性のイラスト">
-              </div>
-            </article>
-            <!-- item 2 -->
-            <article class="line-contents__item">
-              <div class="line-contents__thumb">
-                <img src="./assets/images/line-contents/line-contents02.webp" alt="案件が継続依頼や紹介でつながる人が意識してやっている考え方のイラスト">
-              </div>
-            </article>
-            <!-- item 3 -->
-            <article class="line-contents__item">
-              <div class="line-contents__thumb">
-                <img src="./assets/images/line-contents/line-contents03.webp" alt="コンペや無償企画などの開催やLINE限定の勉強会や相談会のイラスト">
-              </div>
-            </article>
-            <!-- item 4 -->
-            <article class="line-contents__item">
-              <div class="line-contents__thumb">
-                <img src="./assets/images/line-contents/line-contents04.webp" alt="AIとデザインを組み合わせた最先端の提案・ノウハウや仕組み化のイラスト">
-              </div>
-            </article>
-            <!-- item 5 -->
-            <article class="line-contents__item">
-              <div class="line-contents__thumb">
-                <img src="./assets/images/line-contents/line-contents05.webp" alt="デザイン学習や案件獲得に関する情報や解説動画が届くイラスト">
-              </div>
-            </article>
-
-            <!-- item 5 -->
-            <article class="line-contents__item">
-              <div class="line-contents__thumb">
-                <img src="./assets/images/line-contents/line-contents06.webp" alt="美容系や通販系だけでなく他ジャンルでも月50万以上稼ぐための戦略のイラスト">
-              </div>
-            </article>
-          </div>
-          <div class="line-contents__text">
-            <span>などなど。</span>
-            <p>様々な角度で、副業から１２年の経験や学んできたことを配信しています。</p>
+          <div class="line-contents___container">
+            <div class="line-contents__head">
+              <img src="./assets/images/line-contents/line-contents_title.svg" alt="">
+            </div>
+            <div class="line-contents__lists">
+              <!-- item 1 -->
+              <article class="line-contents__item">
+                <div class="line-contents__thumb">
+                  <img src="./assets/images/line-contents/line-contents01.webp" alt="子育てや家事の合間に在宅で20〜30万で働きたい女性のイラスト">
+                </div>
+              </article>
+              <!-- item 2 -->
+              <article class="line-contents__item">
+                <div class="line-contents__thumb">
+                  <img src="./assets/images/line-contents/line-contents02.webp" alt="案件が継続依頼や紹介でつながる人が意識してやっている考え方のイラスト">
+                </div>
+              </article>
+              <!-- item 3 -->
+              <article class="line-contents__item">
+                <div class="line-contents__thumb">
+                  <img src="./assets/images/line-contents/line-contents03.webp" alt="コンペや無償企画などの開催やLINE限定の勉強会や相談会のイラスト">
+                </div>
+              </article>
+              <!-- item 4 -->
+              <article class="line-contents__item">
+                <div class="line-contents__thumb">
+                  <img src="./assets/images/line-contents/line-contents04.webp" alt="AIとデザインを組み合わせた最先端の提案・ノウハウや仕組み化のイラスト">
+                </div>
+              </article>
+              <!-- item 5 -->
+              <article class="line-contents__item">
+                <div class="line-contents__thumb">
+                  <img src="./assets/images/line-contents/line-contents05.webp" alt="デザイン学習や案件獲得に関する情報や解説動画が届くイラスト">
+                </div>
+              </article>
+              <!-- item 5 -->
+              <article class="line-contents__item">
+                <div class="line-contents__thumb">
+                  <img src="./assets/images/line-contents/line-contents06.webp" alt="美容系や通販系だけでなく他ジャンルでも月50万以上稼ぐための戦略のイラスト">
+                </div>
+              </article>
+            </div>
           </div>
         </div>
-        <div class="line-contents__cta">
-          <div class="line-contents__cta-text">
-            <p>上記にひとつでも当てはまる方は、今すぐ友達追加を！</p>
-            <p>登録者限定で、以下の<span>3大特典</span>もプレゼント中👇</p>
+      </section>
+      <div class="line-contents__text">
+        <span>などなど。</span>
+        <p>様々な角度で、副業から１２年の経験や学んできたことを配信しています。</p>
+      </div>
+      <div class="line-contents__cta">
+        <div class="line-contents__cta-text">
+          <p>上記にひとつでも当てはまる方は、今すぐ友達追加を！</p>
+          <p>登録者限定で、以下の<span>3大特典</span>もプレゼント中👇</p>
+        </div>
+        <div class="line-contents__cta-button button">
+          <a href="/">LINEに今すぐ登録する</a>
+        </div>
+      </div>
+
+      <!-- present -->
+      <section class="present layout-present">
+        <div class="present__inner inner">
+          <div class="present__head">
+            <img src="./assets/images/present/present__title.svg" alt="LINE登録者限定3大特典プレゼント！">
           </div>
-          <div class="line-contents__cta-button button">
-            <a href="/">LINEに今すぐ登録する</a>
+          <div class="present__contents">
+            <ul class="present__lists">
+              <li class="present__list">
+                <img src="./assets/images/present/present__list01.webp" alt="特典1のイラスト">
+                <div class="present__list-textbox">
+                  <div class="present__list-head">
+                    <span>実務的</span>
+                    <p>アニメーションテンプレ40選</p>
+                  </div>
+                  <div class="present__list-text">
+                    <p>制作現場でそのまま使える！LPやWebサイトの動きを一瞬で再現。</p>
+                  </div>
+                </div>
+              </li>
+              <li class="present__list">
+                <img src="./assets/images/present/present__list02.webp" alt="特典1のイラスト">
+                <div class="present__list-textbox">
+                  <div class="present__list-head">
+                    <span>2万文字超大作</span>
+                    <p>顧客対応マニュアル</p>
+                  </div>
+                  <div class="present__list-text">
+                    <p>案件対応が苦手な方必見。0から学べる顧客コミュニケーションの教科書。</p>
+                  </div>
+                </div>
+              </li>
+              <li class="present__list">
+                <img src="./assets/images/present/present__list03.webp" alt="特典1のイラスト">
+                <div class="present__list-textbox">
+                  <div class="present__list-head">
+                    <span>初note</span>
+                    <p>購入者80名超のAI提案ノウハウ</p>
+                  </div>
+                  <div class="present__list-text present__list-text--bold">
+                    <p>営業が苦手でもAIを使って自動提案！8日間の実践プログラム。販売から数日で購入者が５０名を超え、１００名突破！いまだに売れ続けています。</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="present__add">
+            <div class="present__add-head">
+              <p>さらに、<span>「サンプル原稿」</span>と入力で・・・</p>
+            </div>
+            <ul class="present__add-images">
+              <li class="present__add-image"><img src="./assets/images/present/present__item01.webp" alt="" loading="lazy"></li>
+              <li class="present__add-image"><img src="./assets/images/present/present__item02.webp" alt="" loading="lazy"></li>
+              <li class="present__add-image"><img src="./assets/images/present/present__item03.webp" alt="" loading="lazy"></li>
+            </ul>
+            <div class="present__add-text">
+              <p>を<span>無料配布中！</span></p>
+            </div>
+            <div class="present__add-accent">
+              <p>どれも数日で１万インプを超え！</p>
+              <p>１００人以上が受け取られています！</p>
+            </div>
           </div>
         </div>
-
-
       </section>
 
+      <!-- 登録者の声 -->
+      <section class="voice layout-voice">
+        <div class="voice__inner inner">
+          <div class="voice__title">
+            <img src="./assets/images/voice/voice_title.webp" alt="">
+          </div>
+          <div class="voice__swiper voice-swiper">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/images/voice/voice_01.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/voice/voice_02.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/voice/voice_03.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/voice/voice_04.webp" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/images/voice/voice_05.webp" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
+      <!-- 講師プロフィール -->
+      <section class="profile layout-profile">
+        <div class="profile__inner inner">
+          <div class="profile__container">
+            <div class="profile__head">
+              <div class="profile__title">講師プロフィール</div>
+              <div class="profile__image">
+                <img src="./assets/images/profile/profile__01.webp" alt="">
+              </div>
+              <p>りょう</p>
+              <div class="profie__tag">
+                <ul class="profile__tag-items">
+                  <li class="profile__tag-item">webデザイナー</li>
+                  <li class="profile__tag-item">ディレクター</li>
+                  <li class="profile__tag-item">講師</li>
+                </ul>
+              </div>
+            </div>
+            <div class="profile__contents">
+              <p>1991年生まれ・福岡在住。デザイン歴12年、フリーランス歴5年。</p>
+              <p>これまでLP制作100本以上&#xFF0F;一人で年間売上1000万円以上を稼いでいる。</p>
+              <p>広告改善や集客導線などのマーケティングや設計にも精通し、LP制作ではCVR1.2%→3.4%、登録率5%→15%改善など数多くの成果を実現。</p>
+              <p>現在は「法人向けの制作事業」のみならず、フリーランス・主婦・副業デザイナー向けに“実務で稼ぐ”スキルを発信中。</p>
+              <p>多くの未経験・駆け出しデザイナーから最近では５年・１０年という経験者も指導している。</p>
+              <p>趣味は漫画・アニメ・温泉・映画。コーヒーと猫を愛する福岡男子。</p>
+              <p>2025年に法人化&amp;福岡市内へ拠点移転予定。</p>
+            </div>
+            <div class="profile__image-comic">
+              <img src="./assets/images/profile/profile__02.webp" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
       <footer>
+        <div class="footer footer-layout">
+          <div class="footer__text">
+            <p>コンペ用lp</p>
+          </div>
+        </div>
       </footer>
     </main>
 

@@ -25,7 +25,7 @@
   row-gap: rem(13);
   column-gap: rem(45);
   margin-top: rem(20);
-  padding-bottom: rem(15);
+
 
 }
 
@@ -33,7 +33,12 @@
 
 .line-contents__thumb {}
 
-.line-contents__text {}
+.line-contents__text {
+  padding-inline: rem(47.5);
+  padding-top: rem(100);
+  padding-bottom: rem(40);
+  background-color: $pink2;
+}
 
 .line-contents__text span {
   color: $pink;
@@ -49,8 +54,8 @@
 }
 
 .line-contents__cta {
-  margin-top: rem(50);
-  padding-block: rem(50);
+  padding-top: rem(60);
+  padding-bottom: rem(50);
   background: linear-gradient(90deg, #e92283, #fb913d);
   text-align: center;
   font-weight: 500;
